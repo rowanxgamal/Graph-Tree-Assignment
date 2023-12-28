@@ -53,5 +53,6 @@ public class MainDijkstra {
         System.out.print("Enter destination airport: ");
         String destinationAirport = scanner.nextLine();
         Dijkstra.dijkstra(graph,airports,sourceAirport,destinationAirport);
+        
     }
 }
